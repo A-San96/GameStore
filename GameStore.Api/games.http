@@ -15,12 +15,15 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5230/games/1
+PUT http://localhost:5230/games/2
 Content-Type: application/json
 
 {
-  "name": "Minecraft",
-  "genre": "Kids and Family",
-  "price": 19.99,
-  "releaseDate": "2011-11-18"
+  "name": "Final Fantasy XIV",
+  "genre": "Role-Playing",
+  "price": 79.99,
+  "releaseDate": "2010-09-30"
 }
+
+###
+DELETE http://localhost:5230/games/1
