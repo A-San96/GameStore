@@ -11,17 +11,17 @@ Content-Type: application/json
   "name": "Street Fighter XIV",
   "genreId": 2,
   "price": 59.99,
-  "releaseDate": "2010-09-30"
+  "releaseDate": "1991-02-01"
 }
 
 ###
-PUT http://localhost:5230/games/2
+PUT http://localhost:5230/games/3
 Content-Type: application/json
 
 {
-  "name": "Final Fantasy XIV",
-  "genre": "Role-Playing",
-  "price": 79.99,
+  "name": "Street Fighter XIV",
+  "genreId": 2,
+  "price": 59.99,
   "releaseDate": "2010-09-30"
 }
 
