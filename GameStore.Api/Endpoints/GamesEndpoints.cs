@@ -9,11 +9,14 @@ namespace GameStore.Api.Endpoints;
 public static class GamesEndpoints
 {
     const string GetGameEndpointName = "GetGame";
+    const string RoutePrefix = "games";
 
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
-        var group = app.MapGroup("games")
-                        .WithParameterValidation();
+        var group = app.MapGroup(RoutePrefix)
+                        .WithParameterValidation()
+                        .WithOpenApi()
+                        .WithTags("Games");
 
 
         // GET /games
