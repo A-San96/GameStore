@@ -8,10 +8,10 @@ POST http://localhost:5230/games
 Content-Type: application/json
 
 {
-  "name": "Street Fighter XIV",
+  "name": "Street Fighter XX",
   "genreId": 2,
   "price": 59.99,
-  "releaseDate": "1991-02-01"
+  "releaseDate": "2035-02-01"
 }
 
 ###
@@ -22,7 +22,7 @@ Content-Type: application/json
   "name": "Street Fighter XIV",
   "genreId": 2,
   "price": 59.99,
-  "releaseDate": "2010-09-30"
+  "releaseDate": "2010-09-28"
 }
 
 ###
